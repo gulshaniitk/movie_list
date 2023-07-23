@@ -1,0 +1,268 @@
+
+*{
+    font-size: 16px;
+    background-color: rgb(250, 38, 38);
+   
+}
+
+
+#movie_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#movie_listing{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie{
+    width: 600px;
+    background-color: green;
+    
+    
+}
+
+.btn{
+
+    background-color: rgb(245, 241, 12);
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(7, 7, 7);
+}
+
+.search_bar{
+    display: flex;justify-content: center;align-items: center; margin: 20px;
+}
+
+
+#search_movie{
+
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin: 3px;
+    padding: 10px;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    margin: 12px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+}
+
+.movie_name{
+
+    font-weight: 600;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(241, 224, 37);
+}
+
+#page_number{
+   font-size: 24px;
+   border: 3px solid rgb(3, 3, 3);
+   padding: 5px 20px 5px 20px;
+   text-align: center;
+   font-weight: bold;
+   background-color: rgb(244, 244, 47);
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main{
+    background-color: white;
+    padding: 5px;
+    width: 80%;
+    margin: 5px;
+    border: 3px solid black;
+}
+
+.main h3{
+    color: black;
+    font-size: 24px;
+    background-color: rgb(241, 241, 146);
+   text-align: center;
+   margin-bottom: 2px;
+   margin-top: 2px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main p{
+    color: black;
+    font-size: 18px;
+    background-color: rgb(238, 238, 144);
+    text-align: center;
+}
+
+.main_img{
+
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    box-shadow: 2px 2px 3px ;
+  }
+  
+  button:active {
+    box-shadow: 1px 1px 3px ;
+  }
+  
+
+ .user_rate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+    background-color: rgb(231, 231, 131);
+ }
+
+ .user_rate h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 0px;
+    background-color: rgb(231, 231, 131);
+ }
+
+ #comment{
+    background-color: white;
+    margin: 5px 5px 5px 0px;
+    color: black;
+    width: 400px;
+    border: 2px solid black;
+    
+ }
+
+.detail_img{
+    width:300px;
+    height:400px;
+}
+
+#rate{
+    background-color: rgb(231, 231, 131);
+}
+#rating_div{
+    background-color: rgb(231, 231, 131);
+}
+
+.comment_area{
+    background-color: rgb(231, 231, 131);
+}
+
+.user_rate label,.rating_div,.comment-area{
+    background-color: rgb(231, 231, 131);
+}
+
+.submovie{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.list_poster{
+    width: 200px;
+    height: 300px;
+}
+
+.card{
+    width: 250px;
+}
+
+#loader{
+    font-size: 32px;
+    font-weight: bold;
+   text-align: center;
+   background-color: rgb(231, 231, 131);
+   padding: 10px;
+   margin: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   display: none;
+}
+
+@media only screen and (max-width:760px){
+
+    .detail_img{
+        width:200px;
+        height:300px;
+    }
+
+    .main h3{
+    font-size: 20px;
+    }
+    
+    .main p{
+       font-size: 17px;
+    }
+    
+    #comment{
+      width: 300px;
+     }
+    
+     .btn{
+        width:70px;
+        font-size: 15px;
+        height: 30px;
+     }
+
+     .search_bar{
+        display: flex;
+        flex-direction: column;
+     }
+
+     #search_movie{
+        width: 250px;
+     }
+
+
+     #movie_list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .card{
+        width: 400px;
+     }
+
+     .list_poster{
+        width: 600px;
+     }
+
+}

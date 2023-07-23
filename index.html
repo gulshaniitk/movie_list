@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Movie List</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="loader">
+        Loading....
+    </div>
+
+    <div id="movie_listing">
+    <div id="heading">
+    <div class="search_bar">
+    <input type="text" value="Batman" placeholder="Search Movies" name="search" id="search_movie">
+    <button onclick="Search()"  class="btn">Search</button>
+    </div>
+        <div style="display: flex;justify-content: space-around;align-items: center;">
+            <button onclick="Prev(page)" class="btn">Prev</button><p id="page_number">
+
+            </p><button onclick="Next(page)" class="btn">Next</button>
+    </div>
+    </div>
+
+   
+    <div id="movie_list">
+
+    </div>
+
+</div>
+
+
+
+    <div id="movie_info">
+
+    </div>
+
+
+
+</body>
+
+</html>
