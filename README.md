@@ -1,6 +1,7 @@
 # movie_list
 Javascript API Assignment
 
+Deployed at : https://gulshaniitk.github.io/movie_list/
 
 Objective: 
 Develop a movie list application inspired by IMDB that uses the OMDB
